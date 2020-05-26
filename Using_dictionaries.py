@@ -3,3 +3,5 @@
 LATAM_presidents={"Brasil":"Bolsonaro", "Colombia": "Duque", "Ecuador": "Moreno", "Peru": "Vizcarra"}
 #we can print the dictionary by using the print command
 print(LATAM_presidents)
+#we can verify the data type LATAM_presidents is
+print("LATAM_presidents is a "+ str(type(LATAM_presidents)))
