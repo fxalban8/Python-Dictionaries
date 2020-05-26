@@ -10,3 +10,5 @@ print("The president of Brasil is "+LATAM_presidents["Brasil"])
 #Upss, we've forgotten the president of Mexico. Let's add it
 LATAM_presidents["Mexico"]="AMLO"
 print("The president of Mexico is "+ str(LATAM_presidents["Mexico"]))
+#We can also check if a key(country) is in the dictionary
+print("Ecuador" in LATAM_presidents)
