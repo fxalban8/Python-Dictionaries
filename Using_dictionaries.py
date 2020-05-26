@@ -7,3 +7,6 @@ print(LATAM_presidents)
 print("LATAM_presidents is a "+ str(type(LATAM_presidents)))
 #let's check who is the president of Brasil
 print("The president of Brasil is "+LATAM_presidents["Brasil"])
+#Upss, we've forgotten the president of Mexico. Let's add it
+LATAM_presidents["Mexico"]="AMLO"
+print("The president of Mexico is "+ str(LATAM_presidents["Mexico"]))
